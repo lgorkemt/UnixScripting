@@ -1,2 +1,2 @@
 # UnixScripting
-# Shell and bash script files for importing and experting files, creating directories
+# Shell and bash script files for importing and exporting files, creating directories
