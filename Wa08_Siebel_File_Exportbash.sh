@@ -1,7 +1,7 @@
 #!/bin/bash
 #sh WA08_enhencement_ibmlturan 1
 
-HOSTRemote=172.31.70.224
+HOSTRemote=127.0.0.1
 USERRemote=siebel
 # Our Folders
 MH_BATCH_PROCESS_OUT=/mnt/icrm/deneme/siebel/MH/*
