@@ -15,13 +15,13 @@
 #LOCAL_SHOPDESTEK=/mnt/icrm/deneme/SD
 
 mkdir -p /app_fax/siebelfaxes/MH
-scp -pr siebel@172.31.70.224:/siebel/WA08/faxnumber1.sit/* /app_fax/siebelfaxes/MH/.
+scp -pr siebel@127.0.0.1:/siebel/WA08/faxnumber1.sit/* /app_fax/siebelfaxes/MH/.
 
 mkdir -p /app_fax/siebelfaxes/KURUMSAL
-scp -pr siebel@172.31.70.224:/siebel/WA08/faxnumber2.sit/* /app_fax/siebelfaxes/KURUMSAL/.
+scp -pr siebel@127.0.0.1:/siebel/WA08/faxnumber2.sit/* /app_fax/siebelfaxes/KURUMSAL/.
 
 mkdir -p /app_fax/siebelfaxes/SHOPDESTEK
-scp -pr siebel@172.31.70.224:/siebel/WA08/faxnumber3.sit/* /app_fax/siebelfaxes/SHOPDESTEK/.
+scp -pr siebel@127.0.0.1:/siebel/WA08/faxnumber3.sit/* /app_fax/siebelfaxes/SHOPDESTEK/.
 
 chmod 777 /app_fax/siebelfaxes/MH
 chmod 777 /app_fax/siebelfaxes/KURUMSAL
