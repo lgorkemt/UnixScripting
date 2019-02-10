@@ -8,7 +8,7 @@ SIEBEL_MH=/d101/iccb/shell/source
 #Destination folder
 LOCAL_MH=/d101/iccb/shell/destination/*
 
-HOSTSiebel=172.31.70.224 
+HOSTSiebel= 127.0.0.1
 USERSiebel=siebel
 echo "started" 
 #If remote connection needed
